@@ -7,7 +7,7 @@ public class DukeApp {
     public static void main(String[] args) {
         try {
             int sprite = 1;
-            final int quantidadeTotalSprites = DukeSprite.quantidadeTotalSprites();
+            int quantidadeTotalSprites = DukeSprite.quantidadeTotalSprites();
 
             while (sprite <= quantidadeTotalSprites) {
                 System.out.print(DukeSprite.sprite(sprite));
@@ -18,7 +18,7 @@ public class DukeApp {
 
                 sprite++;
 
-                TimeUnit.MILLISECONDS.sleep(90);
+                TimeUnit.MILLISECONDS.sleep(150);
 
                 System.out.print("\033[H\033[2J");
                 System.out.flush();
