@@ -1,4 +1,4 @@
-# Hello Wold ++
+# Hello Duke ++
 ## Um repositório para o juninho se inspirar (-:
 
 Uma coisa que me ajudou e me ajuda muito até hoje é ir além do que é ensinado nos cursos, livros etc.
